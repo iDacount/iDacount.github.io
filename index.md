@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><style>
+    body{
+    background-color: tan;
+    }
+    #title{
+        color: orange;
+    }
 
-You can use the [editor on GitHub](https://github.com/iDacount/super-train.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    #header{
+    font-size:200%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: 3px solid green;
 
-### Markdown
+    background-color: CornflowerBlue;
+}
+    .review {
+    float:center;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    border: 2px solid black;
+    float:auto;
+    padding:10px;
+    }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    #blue{background-color:darkBlue;color:CornflowerBlue;}
+    #green{background-color:DarkGreen;color:DarkSeaGreen;}
+    #orange{background-color:DarkOrange;color:yellow;}
+    #white{background-color:white;color:black;}
+    #brown{background-color:saddlebrown;color:wheat;}
 
-```markdown
-Syntax highlighted code block
+</style>
+</head>
+<body>
+    <div id="header">
+        <h1 id="title">Color Review</h1>
+        <img src="https://cdn.britannica.com/70/191970-050-1EC34EBE/Color-wheel-light-color-spectrum.jpg?q=60" alt="COLOR WHEEL" id="headerImg" style="width: 100%; padding: 0px;">
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
+    <div id="input"></div>
 
-- Bulleted
-- List
+    <div id = "blue"; class = "review">
+        <h4>Blue</h4>
+        <div style="border: 1px solid black; background-color:black;"></div>
+        <p>Blue is an overal solid color. It is used well in painting houses, paintings, and many others, but not really cars. Most shades look nice, although there is some bad ones. All in all, blue is an overall solid color. 9/10</p>
+    </div>
 
-1. Numbered
-2. List
+    <div id = "green" class = "review">
+        <h4>Green</h4>
+        <div style="border: 1px solid black; background-color:black;"></div>
+        <p>Green is fairly hit or miss. About half the shades are good, and half the shades are bad. Nice leafy greens look good while dirty and grimy greens look bad. All things considered, green is overall positive. 7/10</p>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    <div id = "orange" class = "review">
+        <h4>Orange</h4>
+        <div style="border: 1px solid black; background-color:black;"></div>
+        <p>Orange is a usualy bad color. It only has sunset oranges going for it, but most other oranges look like bright and alarming traffic cones. As the color is intentionally used with traffic cones to catch attention, it is hard to look away from and is grating on the eyes. As most oranges represent the traffic cone group, I give it a 3/10</p>
+    </div>
 
-[Link](url) and ![Image](src)
-```
+    <div id = "white" class = "review">
+        <h4>White</h4>
+        <div style="border: 1px solid black; background-color:black;"></div>
+        <p>White is not good, but is hated on too much. White will look well if in the right circumstance. For example, it looks nice on the right car, and it is objectively the right choice for bathrooms and kitchens. However, white is still very harsh and bright. It's also very basic and doesn't have much else going for it. 4/10</p>
+    </div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <div id = "brown" class = "review"><h5>Brown</h5>
+        <div style="border: 1px solid black; background-color:black;"></div>
+        <p>Brown is fine. There are some ok colors, but nothing bad. there really isn't much to say about brown. It pairs well with white in kitchens and looks good on furniture. Some lighter browns are more appealing than white, but there are no vibrant or outstanding browns. not much to it. 5/10</p>
+    </div>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iDacount/super-train.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
